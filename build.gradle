@@ -19,7 +19,8 @@ sourceSets {
             srcDirs = ['src/main/resources/src/main/java']
         }
         resources {
-            srcDirs = ['src/main/resources', 'src/main/resources/src/main/resources']
+            srcDirs = ['src/main/resources']
+            exclude 'src/**'
         }
     }
 }
