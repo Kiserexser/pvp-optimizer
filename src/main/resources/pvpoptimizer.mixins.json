@@ -1,0 +1,23 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.pvpoptimizer.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "client": [
+    "RenderDistanceMixin",
+    "EntityCullingMixin",
+    "ParticleLimitMixin",
+    "CloudRenderMixin",
+    "FogMixin",
+    "ToggleSprintMixin",
+    "GameRendererMixin",
+    "HitboxMixin",
+    "ChunkLoadingMixin",
+    "EntityRenderMixin",
+    "AnimationMixin",
+    "WeatherRenderMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
